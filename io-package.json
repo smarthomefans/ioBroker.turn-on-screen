@@ -27,7 +27,7 @@
             "it": "Attiva lo schermo",
             "es": "Encender pantalla",
             "pl": "Włącz ekran",
-            "zh-cn": "打开屏幕"
+            "zh-cn": "点亮屏幕"
         },
         "desc": {
             "en": "This adapter can turn your device screen on when receive event",
@@ -72,8 +72,8 @@
         ]
     },
     "native": {
-        "option1": true,
-        "option2": "42"
+        "byKeyboard": false,
+        "byMouse": true
     },
     "objects": [],
     "instanceObjects": []
