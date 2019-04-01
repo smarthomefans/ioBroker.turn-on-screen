@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "turn-on-screen",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "news": {
+            "0.0.2": {
+                "en": "Add button object to move mouse to 0,0",
+                "de": "Fügen Sie ein Schaltflächenobjekt hinzu, um die Maus auf 0,0 zu verschieben",
+                "ru": "Добавить объект кнопки для перемещения мыши на 0,0",
+                "pt": "Adicionar objeto de botão para mover o mouse para 0,0",
+                "nl": "Voeg een knopobject toe om de muis naar 0,0 te verplaatsen",
+                "fr": "Ajouter un objet bouton pour déplacer la souris à 0,0",
+                "it": "Aggiungi oggetto pulsante per spostare il mouse su 0,0",
+                "es": "Añadir objeto de botón para mover el mouse a 0,0",
+                "pl": "Dodaj obiekt przycisku, aby przesunąć mysz do 0,0",
+                "zh-cn": "添加按钮对象将鼠标移动到0,0"
+            },
             "0.0.1": {
                 "en": "initial release",
                 "de": "Erstveröffentlichung",
