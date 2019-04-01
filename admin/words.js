@@ -14,28 +14,28 @@ systemDictionary = {
         "pl": "Ustawienia adaptera dla turn-on-screen",
         "zh-cn": "turn-on-screen的适配器设置"
     },
-    "option1": {
-        "en": "option1",
-        "de": "Option 1",
-        "ru": "Опция 1",
-        "pt": "Opção 1",
-        "nl": "Optie 1",
-        "fr": "Option 1",
-        "it": "opzione 1",
-        "es": "Opción 1",
-        "pl": "opcja 1",
-        "zh-cn": "选项1"
+    "byKeyboard": {
+        "en": "Wake up screen by keyboard event",
+        "de": "Weckbildschirm bei Tastaturereignis",
+        "ru": "Разбудить экран по событию клавиатуры",
+        "pt": "Acordar tela pelo evento de teclado",
+        "nl": "Wakker worden door toetsenbordgebeurtenis",
+        "fr": "Réveil écran par événement clavier",
+        "it": "Sveglia schermo per evento tastiera",
+        "es": "Despertar pantalla por evento de teclado",
+        "pl": "Obudź się po wydarzeniu z klawiatury",
+        "zh-cn": "通过键盘事件唤醒屏幕"
     },
-    "option2": {
-        "en": "option2",
-        "de": "Option 2",
-        "ru": "option2",
-        "pt": "opção 2",
-        "nl": "Optie 2",
-        "fr": "Option 2",
-        "it": "opzione 2",
-        "es": "opcion 2",
-        "pl": "Opcja 2",
-        "zh-cn": "选项2"
+    "byMouse": {
+        "en": "Wake up screen by mouse event",
+        "de": "Weckbildschirm per Mausereignis",
+        "ru": "Проснись экран по событию мыши",
+        "pt": "Acordar tela por evento de mouse",
+        "nl": "Scherm ontwaken door muisgebeurtenis",
+        "fr": "Écran de réveil par événement de souris",
+        "it": "Riattivare lo schermo per evento del mouse",
+        "es": "Despertar pantalla por evento del mouse",
+        "pl": "Obudź się za pomocą myszy",
+        "zh-cn": "通过鼠标事件唤醒屏幕"
     }
 };
