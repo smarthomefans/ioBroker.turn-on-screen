@@ -18,6 +18,8 @@ Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/smartho
 This adapter can turn your device screen on when receive event
 
 ## Changelog
+### 0.0.2 (2019-04-02)
+* Add button object to move mouse to 0,0
 
 ### 0.0.1
 * (SchumyHao) initial release
