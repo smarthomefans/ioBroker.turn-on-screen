@@ -3,15 +3,14 @@
     ioBroker.turn-on-screen
 </h1>
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.turn-on-screen.svg)](https://www.npmjs.com/package/iobroker.turn-on-screen)
+![Number of Installations](http://iobroker.live/badges/turn-on-screen-installed.svg) ![Number of Installations](http://iobroker.live/badges/turn-on-screen-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.turn-on-screen.svg)](https://www.npmjs.com/package/iobroker.turn-on-screen)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.turn-on-screen.svg)](https://www.npmjs.com/package/iobroker.turn-on-screen)
 [![Dependency Status](https://img.shields.io/david/smarthomefans/iobroker.turn-on-screen.svg)](https://david-dm.org/smarthomefans/iobroker.turn-on-screen)
 [![Known Vulnerabilities](https://snyk.io/test/github/smarthomefans/ioBroker.turn-on-screen/badge.svg)](https://snyk.io/test/github/smarthomefans/ioBroker.turn-on-screen)
 
 [![NPM](https://nodei.co/npm/iobroker.turn-on-screen.png?downloads=true)](https://nodei.co/npm/iobroker.turn-on-screen/)
 
-**Tests:** Linux/Mac: [![Travis-CI](http://img.shields.io/travis/smarthomefans/ioBroker.turn-on-screen/master.svg)](https://travis-ci.org/smarthomefans/ioBroker.turn-on-screen)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/smarthomefans/ioBroker.turn-on-screen?branch=master&svg=true)](https://ci.appveyor.com/project/smarthomefans/ioBroker-turn-on-screen/)
+**Tests:** Linux/Mac/Windows: [![Travis-CI](http://img.shields.io/travis/smarthomefans/ioBroker.turn-on-screen/master.svg)](https://travis-ci.org/smarthomefans/ioBroker.turn-on-screen)
 
 ## turn-on-screen adapter for ioBroker
 
