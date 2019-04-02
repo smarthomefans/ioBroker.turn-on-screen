@@ -17,6 +17,9 @@
 This adapter can turn your device screen on when receive event
 
 ## Changelog
+### 0.0.3 (2019-04-02)
+* fix dependency issue
+
 ### 0.0.2 (2019-04-02)
 * Add button object to move mouse to 0,0
 

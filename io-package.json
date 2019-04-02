@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "turn-on-screen",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "news": {
+            "0.0.3": {
+                "en": "fix dependency issue",
+                "de": "Abhängigkeitsproblem beheben",
+                "ru": "исправить проблему зависимости",
+                "pt": "Corrigir problema de dependência",
+                "nl": "probleem met afhankelijkheid oplossen",
+                "fr": "résoudre le problème de dépendance",
+                "it": "risolvere il problema di dipendenza",
+                "es": "arreglar problema de dependencia",
+                "pl": "naprawić problem zależności",
+                "zh-cn": "修复依赖问题"
+            },
             "0.0.2": {
                 "en": "Add button object to move mouse to 0,0",
                 "de": "Fügen Sie ein Schaltflächenobjekt hinzu, um die Maus auf 0,0 zu verschieben",
