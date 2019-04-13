@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "turn-on-screen",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "news": {
+            "0.0.4": {
+                "en": "Add GetAdmin trigger",
+                "de": "Fügen Sie den GetAdmin-Trigger hinzu",
+                "ru": "Добавить триггер GetAdmin",
+                "pt": "Adicionar gatilho GetAdmin",
+                "nl": "GetAdmin-trigger toevoegen",
+                "fr": "Ajouter un déclencheur GetAdmin",
+                "it": "Aggiungi trigger GetAdmin",
+                "es": "Añadir GetAdmin trigger",
+                "pl": "Dodaj wyzwalacz GetAdmin",
+                "zh-cn": "增加GetAdmin触发选项"
+            },
             "0.0.3": {
                 "en": "fix dependency issue",
                 "de": "Abhängigkeitsproblem beheben",
