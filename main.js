@@ -8,6 +8,7 @@
 // you need to create an adapter
 const utils = require("@iobroker/adapter-core");
 const robot = require("robotjs");
+const https = require("https");
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
@@ -37,11 +38,12 @@ class TurnOnScreen extends utils.Adapter {
         // this.config:
         this.log.info("config byKeyboard: " + this.config.byKeyboard);
         this.log.info("config byMouse: " + this.config.byMouse);
+        this.log.info("config byGetAdmin: " + this.config.byGetAdmin);
 
         await this.setObjectAsync("TurnOn", {
             type: "state",
             common: {
-                name: "testVariable",
+                name: "Turn On Screen",
                 type: "boolean",
                 role: "button",
                 read: true,
@@ -76,7 +78,32 @@ class TurnOnScreen extends utils.Adapter {
         if (state) {
             // The state was changed
             this.log.silly(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
-            robot.moveMouse(0, 0);
+            if (this.config.byMouse) {
+                robot.moveMouse(0, 0);
+            }
+            if (this.config.byKeyboard) {
+                robot.keyTap("enter");
+            }
+            if (this.config.byGetAdmin) {
+                const options = {
+                    hostname: "127.0.0.1",
+                    port: 8585,
+                    path: "/?key=ENT",
+                    method: "GET"
+                };
+
+                const req = https.request(options, (res) => {
+                    res.on("data", (d) => {
+                        this.log.silly(`GetAdmin return ${d}`);
+                    });
+                });
+
+                req.on("error", (error) => {
+                    this.log.error(error.message);
+                });
+
+                req.end();
+            }
         } else {
             // The state was deleted
             this.log.info(`state ${id} deleted`);

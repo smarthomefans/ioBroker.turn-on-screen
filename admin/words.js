@@ -37,5 +37,17 @@ systemDictionary = {
         "es": "Despertar pantalla por evento del mouse",
         "pl": "Obudź się za pomocą myszy",
         "zh-cn": "通过鼠标事件唤醒屏幕"
+    },
+    "byGetAdmin": {
+        "en": "byGetAdmin",
+        "de": "byGetAdmin",
+        "ru": "byGetAdmin",
+        "pt": "byGetAdmin",
+        "nl": "byGetAdmin",
+        "fr": "parGetAdmin",
+        "it": "byGetAdmin",
+        "es": "porGetAdmin",
+        "pl": "byGetAdmin",
+        "zh-cn": "byGetAdmin"
     }
 };

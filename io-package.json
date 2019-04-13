@@ -97,7 +97,8 @@
     },
     "native": {
         "byKeyboard": false,
-        "byMouse": true
+        "byMouse": true,
+        "byGetAdmin": false
     },
     "objects": [],
     "instanceObjects": []
