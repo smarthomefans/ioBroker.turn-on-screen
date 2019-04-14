@@ -8,7 +8,7 @@
 // you need to create an adapter
 const utils = require("@iobroker/adapter-core");
 const robot = require("robotjs");
-const request = require('request');
+const request = require("request");
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
@@ -86,13 +86,14 @@ class TurnOnScreen extends utils.Adapter {
             }
             if (this.config.byGetAdmin) {
                 const options = {
-                    url: "http://127.0.0.1:8585/?cmd=key=ENT"
+                    url: "http://127.0.0.1:8585/?key=ENT"
                 };
                 request(options, (error, response, body) => {
                     if (!error && response.statusCode === 200) {
-                        this.log.info("Wake up screen by GetAdmin successful.")
+                        this.log.silly(`Body ${JSON.stringify(body)}`);
+                        this.log.info("Wake up screen by GetAdmin successful.");
                     } else {
-                        this.log.error("Wake up screen by GetAdmin failed." + error.message)
+                        this.log.error("Wake up screen by GetAdmin failed." + error.message);
                     }
                 });
             }
