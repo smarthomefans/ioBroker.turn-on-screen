@@ -8,7 +8,7 @@
 // you need to create an adapter
 const utils = require("@iobroker/adapter-core");
 const robot = require("robotjs");
-const https = require("https");
+const request = require('request');
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
@@ -86,23 +86,15 @@ class TurnOnScreen extends utils.Adapter {
             }
             if (this.config.byGetAdmin) {
                 const options = {
-                    hostname: "127.0.0.1",
-                    port: 8585,
-                    path: "/?key=ENT",
-                    method: "GET"
+                    url: "http://127.0.0.1:8585/?cmd=key=ENT"
                 };
-
-                const req = https.request(options, (res) => {
-                    res.on("data", (d) => {
-                        this.log.silly(`GetAdmin return ${d}`);
-                    });
+                request(options, (error, response, body) => {
+                    if (!error && response.statusCode === 200) {
+                        this.log.info("Wake up screen by GetAdmin successful.")
+                    } else {
+                        this.log.error("Wake up screen by GetAdmin failed." + error.message)
+                    }
                 });
-
-                req.on("error", (error) => {
-                    this.log.error(error.message);
-                });
-
-                req.end();
             }
         } else {
             // The state was deleted
