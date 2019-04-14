@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "turn-on-screen",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "news": {
+            "0.0.6": {
+                "en": "Fix dependencies issue",
+                "de": "Korrigieren Sie das Problem der Abhängigkeiten",
+                "ru": "Исправить проблему с зависимостями",
+                "pt": "Corrigir problema de dependências",
+                "nl": "Problemen met afhankelijkheden repareren",
+                "fr": "Correction du problème des dépendances",
+                "it": "Risolve il problema delle dipendenze",
+                "es": "Solucionar problema de dependencias",
+                "pl": "Napraw problem zależności",
+                "zh-cn": "修复依赖项问题"
+            },
             "0.0.5": {
                 "en": "Fix \"socket hang up\" issue",
                 "de": "Fix \"socket hang up\" Problem",

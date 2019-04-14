@@ -1,6 +1,6 @@
 {
   "name": "iobroker.turn-on-screen",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This adapter can turn your device screen on when receive event",
   "author": {
     "name": "SchumyHao",
