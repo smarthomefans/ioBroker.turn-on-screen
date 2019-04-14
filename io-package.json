@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "turn-on-screen",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "news": {
+            "0.0.5": {
+                "en": "Fix \"socket hang up\" issue",
+                "de": "Fix \"socket hang up\" Problem",
+                "ru": "Исправлена ​​проблема с зависанием сокета",
+                "pt": "Corrigir problema de \"socket hang up\"",
+                "nl": "Fix \"socket hang up\" probleem",
+                "fr": "Correction du problème \"socket hang up\"",
+                "it": "Risolto il problema \"socket hang up\"",
+                "es": "Solucionar el problema \"socket hang up\"",
+                "pl": "Napraw problem „socket hang up”",
+                "zh-cn": "修复“socket hang up”问题"
+            },
             "0.0.4": {
                 "en": "Add GetAdmin trigger",
                 "de": "Fügen Sie den GetAdmin-Trigger hinzu",

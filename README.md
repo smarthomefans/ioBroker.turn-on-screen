@@ -17,6 +17,9 @@
 This adapter can turn your device screen on when receive event
 
 ## Changelog
+### 0.0.5 (2019-04-14)
+* Fix "socket hang up" issue
+
 ### 0.0.4 (2019-04-14)
 * Add GetAdmin trigger
 
